@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container{
+  padding: 10px;
+}
+
+.float-left{
+  float: left;
+}
+
+.clearfix::after{
+  background-color: grey;
+  display: table;
+  content: ('');
+  clear: both;
+}
+
+/* Testata della pagina, HEADER */
+header{
+  height: 150px;
+  background-color: rgba(102, 223, 197, 0.82);
+}
+
+main{
+  height: 500px;
+  margin: 10px 0;
+  /* background-color: red; */
+}
+
+/* Prima colonna SX */
+.col-left{
+  width: 25%;
+  height: 75%;
+  background-color: pink;
+}
+
+/* Seconda colonna DX */
+.col-right{
+  width: 25%;
+  height: 40%;
+  background-color: yellow;
+}
+.col-right2{
+  width: 25%;
+  height: 30%;
+  margin-top: 10px;
+  background-color: black;
+  display: inline-block;
+}
+.maincorp{
+  width: calc(50% - 40px);
+  height: 100%;
+  margin: 0 20px;
+  background-color: green;
+}
+
+
+footer{
+  height: 80px;
+  background-color: blue;
+}
