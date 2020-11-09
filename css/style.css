@@ -16,9 +16,9 @@
 .clearfix::after{
   background-color: grey;
   display: table;
-  content: ('');
+  content: '';
   clear: both;
-  display: inline-block;
+
 }
 
 /* Testata della pagina, HEADER */
@@ -28,7 +28,8 @@ header{
 }
 
 main{
-  height: 1000px;
+  /* height: 1000px; */
+  width: 100%;
   margin: 10px 0;
   /* background-color: red; */
 }
@@ -36,7 +37,7 @@ main{
 /* Prima colonna SX */
 .col-left{
   width: 25%;
-  height: 65%;
+  height: 300px;
   background-color: pink;
 
 }
@@ -44,7 +45,7 @@ main{
 /* Corpo centrale */
 .maincorp{
   width: calc(50% - 40px);
-  height: 50%;
+  height: 200px;
   margin: 0 20px;
   background-color: green;
 
@@ -67,6 +68,7 @@ main{
 /* Footer  */
 footer{
   height: 80px;
+  margin-bottom: 10px;
   margin-top: 10px;
   background-color: blue;
 }
