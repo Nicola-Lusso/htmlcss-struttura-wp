@@ -37,30 +37,48 @@ main{
   width: 25%;
   height: 75%;
   background-color: pink;
+
 }
 
-/* Seconda colonna DX */
-.col-right{
-  width: 25%;
-  height: 40%;
-  background-color: yellow;
-}
-.col-right2{
-  width: 25%;
-  height: 30%;
-  margin-top: 10px;
-  background-color: black;
-  display: inline-block;
-}
+/* Corpo centrale */
 .maincorp{
   width: calc(50% - 40px);
   height: 100%;
   margin: 0 20px;
   background-color: green;
+
+}
+
+/* Seconda colonna DX */
+.col-right{
+  width: 25%;
+  height: 30%;
+  background-color: yellow;
+
+}
+
+/* Terza colonna DX */
+.col-right2{
+  width: 25%;
+  height: 30%;
+  margin-top: 10px;
+  background-color: black;
+
+}
+
+/* Quarta colonna DX */
+.col-right3{
+  width: 25%;
+  height: 30%;
+  margin-top: 10px;
+  background-color: orange;
+
 }
 
 
+/* Footer  */
 footer{
   height: 80px;
+  margin-top: 10px;
   background-color: blue;
 }
