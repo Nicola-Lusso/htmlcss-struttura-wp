@@ -18,6 +18,7 @@
   display: table;
   content: ('');
   clear: both;
+  display: inline-block;
 }
 
 /* Testata della pagina, HEADER */
@@ -43,7 +44,7 @@ main{
 /* Corpo centrale */
 .maincorp{
   width: calc(50% - 40px);
-  height: 100%;
+  height: 50%;
   margin: 0 20px;
   background-color: green;
 
@@ -52,28 +53,15 @@ main{
 /* Seconda colonna DX */
 .col-right{
   width: 25%;
-  height: 30%;
+}
+
+.blocco{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
   background-color: yellow;
-
 }
 
-/* Terza colonna DX */
-.col-right2{
-  width: 25%;
-  height: 30%;
-  margin-top: 10px;
-  background-color: black;
-
-}
-
-/* Quarta colonna DX */
-.col-right3{
-  width: 25%;
-  height: 30%;
-  margin-top: 10px;
-  background-color: orange;
-
-}
 
 
 /* Footer  */
